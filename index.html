@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="spotify1.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="images/spotify.jpeg" alt="">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div>
+            <div class="songItem">
+                <img src="images/ammyi song.jpeg" alt="">
+                <p class="songitem">ammayi.mp3</p>
+                <p class="songlistPlay"><span class="timeBar" id="time0">03:45</span><i id="0" class="fa-2x songItemPlay fa-regular fa-circle-play"></i></p>
+            </div>
+            <div class="songItem">
+                <img src="images/nanna nuvvu na pranam.jpeg" alt="">
+                <p class="songitem">nanna nuvvu na pranam.mp3</p>
+                <p class="songlistPlay"><span class="timeBar" id="time1">04:12</span><i id="1" class="fa-2x songItemPlay fa-regular fa-circle-play"></i></p>
+            </div>
+            <div class="songItem">
+                <img src="images/ney verey.jpeg" alt="">
+                <p class="songitem">ney verey.mp3</p>
+                <p class="songlistPlay"><span class="timeBar" id="time2">02:58</span><i id="2" class="fa-2x songItemPlay fa-regular fa-circle-play"></i></p>   
+            </div>
+            <div class="songItem">
+                <img src="images/evarevaro.jpeg" alt="">
+                <p class="songitem">evarevaro.mp3</p>
+                <p class="songlistPlay"><span class="timeBar" id="time3">05:05</span><i id="3" class="fa-2x songItemPlay fa-regular fa-circle-play"></i></p>   
+            </div>
+            <div class="songItem">
+                <img src="images/yaalo yalaa.jpeg" alt="">
+                <p class="songitem">yaalo yaala.mp3</p>
+                <p class="songlistPlay"><span class="timeBar" id="time4">04:36</span><i id="4" class="fa-2x songItemPlay fa-regular fa-circle-play"></i></p>   
+            </div>
+        </div>
+    </div>
+    <div class="songbanner"></div>
+    <div class="bottom">
+        <input type="range" id="progressbar" min="0" max="100">
+        <div class="icons">
+            <i class="fa-2x fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-2x fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="fa-2x fa-solid fa-forward-step" id="next"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/09fde9ae9c.js" crossorigin="anonymous"></script>
+    <script src="spotify.js"></script>
+</body>
+</html>
